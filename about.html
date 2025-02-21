@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>การเชื่อมต่อ Front-end และ Back-end</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/logoweb.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="barber_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <span class="loading" data-name="Loading">การเชื่อมต่อ Front-end และ Back-end</span>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+
+        <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+			<div class="side-top">
+				<div class="logo-sidebar">
+					<a href="index.html"><img src="images/pmtech-1.png" alt="image"width="222" height="117"></a>
+				</div>
+				<ul class="sidebar-nav">
+					<li><a href="index.html">หน้าหลัก</a></li>
+					<li><a class="active" href="about.html">รายวิชาที่เกี่ยวข้อง</a></li>
+					<li><a href="services.html">งานบูรณาการ</a></li>
+					<li><a href="appointment.html">คณะอาจารย์ผู้สอน</a></li>
+					<li><a href="contact.html">ผู้จัดทำ</a></li>
+				</ul>
+			</div>
+        </div>
+        <!-- End Sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div class="about-page-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="title title-1 text-center">
+								<div class="title--heading">
+									<h1>รายวิชาที่เกี่ยวข้อง</h1>
+								</div>
+								<div class="clearfix"></div>
+								<ol class="breadcrumb">
+									<li><a href="index.html">หน้าหลัก</a></li>
+									<li class="active">รายวิชาที่เกี่ยวข้อง</li>
+								</ol>
+								<div class="much">
+									<img src="uploads/mustache.png" alt=""/>
+								</div>
+							</div>
+							<!-- .title end -->
+						</div>
+					</div>
+				</div>
+			</div><!-- end all-page-bar -->
+
+            <div class="section wb">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="message-box">
+                                <h2>รายวิชาที่เกี่ยวข้อง</h2>
+                                <p class="lead">การพัฒนาซอร์ฟแวร์ด้วยเทคโนโลยี Back-End</p>
+                                <p class="lead"> ระบบปฏิบัติการเครื่องแม่ข่าย </p>
+                                <p class="lead"> องค์การและการบริหารงานคุณภาพ  </p>
+                                <p class="lead"> สังคมไทยในยุคดิจิทัล </p> 
+                                
+                            </div><!-- end messagebox -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+					
+					<hr class="hr1"> 
+					
+					<div class="row">
+                        <div class="col-md-12">
+                            <div class="about-tab">
+                                <div class="tab-content">
+                                <ul class="nav nav-tabs">
+                                    <li><a href="#tab_a" data-toggle="tab">การพัฒนาซอร์ฟแวร์ด้วยเทคโนโลยี Back-End</a></li>
+                                    <li><a href="#tab_b" data-toggle="tab">ระบบปฏิบัติการเครื่องแม่ข่าย</a></li>
+                                    <li><a href="#tab_c" data-toggle="tab">องค์การและการบริหารงานคุณภาพ</a></li>
+                                    <li><a href="#tab_d" data-toggle="tab">สังคมไทยในยุคดิจิทัล</a></li>
+                                </ul>
+                               
+                                <!-- Tab A: การพัฒนาซอร์ฟแวร์ด้วยเทคโนโลยี Back-End -->
+                                <div class="tab-pane fade" id="tab_a" >
+                                            <!-- Sub-tabs -->
+                                            <ul class="nav nav-tabs">
+                                                <li><a href="#tab_e" data-toggle="tab">ส่วนเสริม</a></li>
+                                                <li><a href="#tab_f" data-toggle="tab">วิธีการ</a></li>
+                                            </ul>
+
+                                            <!-- Tab Content for "ส่วนเสริม" and "วิธีการ" -->
+                                            <div class="tab-content">
+                                                <!-- ส่วนเสริม -->
+                                                <div class="tab-pane fade" id="tab_e">
+                                                    <h2>Front-end Development</h2>
+                                                    <h1>HTML, CSS, และ JavaScript</h1>
+                                                    <p>1.Live Server – รันเว็บแบบ Real-time บน Local Server</p>
+                                                    <p>2.HTML CSS Support – ช่วยเติมโค้ดอัตโนมัติสำหรับ HTML และ CSS</p>
+                                                    <p>3.CSS Peek – ดูรายละเอียด CSS จากไฟล์อื่นๆ</p>
+                                                    <p>4.Prettier - Code formatter – จัดระเบียบโค้ดให้อ่านง่าย</p>
+                                                    <p>5.JavaScript (ES6) Code Snippets – มี Snippet สำหรับ JavaScript ES6</p>
+                                                    <h1>React, Vue, Angular</h1>
+                                                    <p>6.ES7+ React/Redux/React-Native snippets – สำหรับ React</p>
+                                                    <p>7.Vetur – สำหรับ Vue.js</p>
+                                                    <p>8.Angular Language Service – สำหรับ Angular</p>
+                                                    <h2>Back-end Development</h2>
+                                                    <h1>Node.js / JavaScript / TypeScript</h1>
+                                                    <p>1.Node.js Extension Pack – รวมทุกอย่างที่จำเป็นสำหรับ Node.js</p>
+                                                    <p>2.REST Client – ทดสอบ API ได้โดยไม่ต้องใช้ Postman</p>
+                                                    <p>3.ESLint – ตรวจสอบโค้ด JavaScript และ TypeScript</p>
+                                                    <h1>PHP</h1>
+                                                    <p>4.PHP Intelephense – เพิ่ม Auto-complete และ Syntax Highlight</p>
+                                                    <p>5.PHP Debug – ใช้ Debug PHP ร่วมกับ Xdebug</p>
+                                                    <h1>Java</h1>
+                                                    <p>6.Extension Pack for Java – รองรับการพัฒนา Java</p>
+                                                    <p>7.Debugger for Java – ใช้ Debug โค้ด Java ได้ง่าย</p>
+                                                    <h1>เครื่องมือเสริมที่แนะนำ</h1>
+                                                    <p>1.GitLens – ใช้ Git ได้สะดวกขึ้น</p>
+                                                    <p>2.Docker – จัดการ Docker Container ใน VS Code</p>
+                                                    <p>3.Thunder Client – คล้าย Postman สำหรับทดสอบ API</p>
+                                                 </div>
+
+                                                <!-- วิธีการ -->
+                                                <div class="tab-pane fade" id="tab_f">
+                                                    <h3>การสร้างโปรเจกต์ React + Node.js </h3>
+
+                                                    <!-- Back-End Setup -->
+                                                    <h4>1. สร้างโฟลเดอร์ backend และติดตั้ง Server-side (Back-End)</h4>
+                                                    <p><strong>สร้างโฟลเดอร์ backend:</strong></p>
+                                                    <ul>
+                                                        <li>เปิด VS Code และเปิด Terminal</li>
+                                                        <li>ใช้คำสั่ง:  <code>cd backend</code></li>
+                                                    </ul>
+
+                                                    <h4>2. ตั้งค่า Project ใน <code>backend</code></h4>
+                                                    <p>สร้างไฟล์ <code>package.json</code> ด้วยคำสั่ง:</p>
+                                                    <pre><code>npm init -y</code></pre>
+                                                    <div style="display: flex; justify-content: center; align-items: center; height: 25vh;">
+                                                        <img src="images/1.png" alt="Image" class="img-responsive">
+                                                    </div>
+                                                    <h4>3. ติดตั้ง Dependencies</h4>
+                                                    <p>ติดตั้ง <code>Express</code> และ <code>Inspirational Quotes</code> ด้วยคำสั่ง:</p>
+                                                    <pre><code>npm i express inspirational-quotes</code></pre>
+                                                    <div style="display: flex; justify-content: center; align-items: center; height: 25vh;">
+                                                        <img src="images/2.png" alt="Image" class="img-responsive">
+                                                    </div>
+                                                    
+                                                    
+
+                                                    <h4>4. สร้างไฟล์ <code>app.js</code> และตั้งค่า Express Server</h4>
+                                                    <p>สร้างไฟล์ <code>app.js</code> และใส่โค้ดนี้:</p>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/3.png" alt="Image" class="img-responsive" style="width: 40%; height: auto;">
+                                                    </div>
+                                                
+                                                    
+                                                    
+
+                                                    <h4>5. เปิดเว็บบราวเซอร์</h4>
+                                                    <p>พิมพ์ <code>localhost:5000</code> ใน URL เพื่อดูผลลัพธ์</p>
+
+                                                    <h4>6. การ Start Server</h4>
+                                                    <pre><code>cd backend</code></pre>
+                                                    <pre><code>npm init -y</code></pre>
+                                                    <pre><code>node app.js</code></pre>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/4.png" alt="Image" class="img-responsive" style="width: 40%; height: auto;">
+                                                    </div>
+                                                    <h4>7. ใช้ Node เพื่อ Restart อัตโนมัติ</h4>
+                                                    <p>ใช้คำสั่ง:</p>
+                                                    <pre><code>npx node app.js</code></pre>
+
+                                                    <h4>8. สร้างโฟลเดอร์ Front-End (React)</h4>
+                                                    <p><strong>สร้างโฟลเดอร์ react:</strong></p>
+                                                    <ul>
+                                                        <li>เพิ่ม terminal ใหม่ใน VS Code</li>
+                                                        <li>ติดตั้ง create-react-app แบบ global ก่อน โดยใช้คำสั่ง:</li>
+                                                        <pre><code> create-react-app</code></pre>
+                                                        <div style="display: flex; justify-content: center; align-items: center;">
+                                                            <img src="images/5.png" alt="Image" class="img-responsive" style="width: 40%; height: auto;">
+                                                        </div>
+                                                        <li>ถ้าติดตั้งไม่ได้ ให้ใช้:</li>
+                                                        <pre><code>npx create-react-app frontend</code></pre>
+                                                    </ul>
+
+                                                    <h4>9. ติดตั้งแพ็คเกจเสริมก่อนเริ่ม Server</h4>
+                                                    <p>ติดตั้ง <code>web-vitals</code>:</p>
+                                                    <pre><code>npm install web-vitals</code></pre>
+
+                                                    <h4>10. ติดตั้ง <code>axios</code> ใน Front-End</h4>
+                                                    <p>เข้าไปในโฟลเดอร์ <code>frontend</code> และใช้คำสั่ง:</p>
+                                                    <pre><code>cd frontend</code></pre>
+                                                    <pre><code>npm i axios</code></pre>
+
+                                                    <h4>11. สร้างไฟล์ <code>Quotes.js</code></h4>
+                                                    <p>ในโฟลเดอร์ <code>src</code> ให้สร้างไฟล์ชื่อ <code>Quotes.js</code> โดยใช้คำสั่ง <code>rfce</code> หรือฟังก์ชันสำหรับสร้าง React component:</p>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/6.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/7.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/8.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/9.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/10.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    <h4>12. แก้ไขไฟล์ <code>App.js</code> ของ Front-End</h4>
+                                                    <p>ทำการ import <code>Quotes</code> จากไฟล์ <code>Quotes.js</code> และลบข้อมูลใน <code>App.js</code> และแทนที่ด้วย Component <code>Quotes</code>:</p>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/11.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    <p>ทำการลบข้อมูลจาก header ทั้งหมด และ ใช้ Quotes แทน</p>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/12.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/13.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    
+                                                    
+
+
+                                                    <h4>13. เรียกใช้ Component <code>Quotes</code> ใน <code>App.js</code></h4>
+                                                    <p>กด Save และดูหน้าเว็บเพื่อให้เรียกใช้งานข้อมูลจาก Back-End ที่เราได้ตั้งค่าไว้แล้ว</p>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/14.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                    <h4>14. การทดสอบ</h4>
+                                                    <p>เมื่อคลิกปุ่ม "Get Quote" ระบบจะดึงข้อมูลจาก API ที่สร้างใน Back-End และแสดงในหน้าเว็บ</p>
+                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                        <img src="images/15.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                    </div>
+                                                
+                                                <h4>15.สร้าง Function เพื่อนำข้อมูลมาแสดง</h4>
+                                                  <p>ที่ไฟล์ Quotes.jsImport axios from ‘axios’</p>
+                                                  <p>สร้าง Function เพื่อ Get ข้อมูล Quotesพิมพ์ Function getQuote ()เรียกใช้  </p>
+                                                    
+                                                  <div style="display: flex; justify-content: center; align-items: center;">
+                                                    <img src="images/16.png" alt="Image" class="img-responsive" style="width: 40%; height: auto;">
+                                                </div>
+                                                    
+                                                <p>รับข้อมูล Response =></p>
+                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                    <img src="images/17.png" alt="Image" class="img-responsive" style="width: 15%; height: auto;">
+                                                </div>
+                                                
+                                                <p>Set ข้อมูลไปที่ State</p>
+                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                    <img src="images/18.png" alt="Image" class="img-responsive" style="width: 40%; height: auto;">
+                                                </div>
+                                                
+                                                <p>เรียกใช้ Function getQuote ที่ปุ่ม Button</p>
+                                                <p> โดยมี Event onclick หากมีการคลิกที่ปุ่มก็จะเรียกใช้ Function getQuote</p>
+                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                    <img src="images/19.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                </div>
+                                                
+                                                <h3>16.กด Save >>> เช็คที่เว็บบราวเซอร์</h3>
+                                                <h4>หลังจาก Event onClick >>> Save</h4>
+                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                    <img src="images/20.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                </div>
+                                                
+                                                <h4>17.ผลลัพธ์ที่ได้ จะเห็นว่าหน้าเว็บไซต์ยังไม่สมบูรณ์</h4>
+                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                    <img src="images/21.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                </div>
+                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                    <img src="images/22.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                </div>
+
+                                                <h4>ดาวน์โหลดส่วนเสริมเพิ่ม</h4>
+                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                    <img src="images/23.png" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                                </div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                        <!-- แท็บระบบปฏิบัติการเครื่องแม่ข่าย -->
+                                     
+                                       <div class="tab-pane fade" id="tab_b" style="text-align: center;" >
+                                        <h2>ระบบปฏิบัติการเครื่องแม่ข่าย</h2>
+                                        <p>ข้อมูลเกี่ยวกับระบบปฏิบัติการเครื่องแม่ข่าย...</p>
+                                        <h3>1. บทนำสู่ระบบปฏิบัติการเครื่องแม่ข่าย</h3>
+                                        <h4>-ความหมายและหน้าที่ของระบบปฏิบัติการเครื่องแม่ข่าย</h4>
+                                        <p>ความหมายของระบบปฏิบัติการเครื่องแม่ข่าย (Server Operating System)ระบบปฏิบัติการเครื่องแม่ข่ายคือ ซอฟต์แวร์ที่ทำหน้าที่เป็นตัวกลางระหว่างฮาร์ดแวร์ของเซิร์ฟเวอร์และแอปพลิเคชันที่ทำงานบนเครื่องแม่ข่าย โดยระบบปฏิบัติการนี้จะช่วยในการจัดการและควบคุมทรัพยากรต่างๆ เช่น ซีพียู หน่วยความจำ (RAM) ฮาร์ดดิสก์ และเครือข่าย ทำให้เครื่องแม่ข่ายสามารถทำงานและให้บริการได้อย่างมีประสิทธิภาพ</p>
+                                        <h4>-ประเภทของระบบปฏิบัติการสำหรับเครื่องแม่ข่าย</h4>
+                                        <p>ประเภทของระบบปฏิบัติการสำหรับเครื่องแม่ข่ายระบบปฏิบัติการสำหรับเครื่องแม่ข่าย (Server Operating Systems) มีหลายประเภท ซึ่งแต่ละประเภทจะเหมาะสมกับการใช้งานที่แตกต่างกัน ขึ้นอยู่กับความต้องการของผู้ใช้งานและประเภทของเซิร์ฟเวอร์ที่ต้องการใช้งาน โดยสามารถแบ่งประเภทหลักๆ ได้ดังนี้:</p>
+                                        <p>1. Linux Server</p>
+                                        <p>คำอธิบาย: Linux เป็นระบบปฏิบัติการโอเพนซอร์ส (Open Source) ที่ได้รับความนิยมสูงในเครื่องแม่ข่าย เนื่องจากมีความเสถียร, ปลอดภัย, และมีเครื่องมือการจัดการระบบที่มีประสิทธิภาพสูง</p>
+                                        <p>2. Windows Server</p>
+                                        <p>คำอธิบาย: เป็นระบบปฏิบัติการเซิร์ฟเวอร์ที่พัฒนาโดย Microsoft ซึ่งมักใช้งานในองค์กรที่ต้องการความเข้ากันได้กับซอฟต์แวร์จาก Microsoft หรือในสภาพแวดล้อมที่ใช้ Windows</p>
+                                        <p>3. macOS Server</p>
+                                        <p>คำอธิบาย: macOS Server เป็นระบบปฏิบัติการที่พัฒนาโดย Apple และใช้สำหรับการบริหารจัดการเครื่องแม่ข่ายที่ใช้ฮาร์ดแวร์ของ Apple</p>
+                                        <p>4. Cloud-Based Operating Systems</p>
+                                        <p>คำอธิบาย: ระบบปฏิบัติการสำหรับเครื่องแม่ข่ายที่ทำงานในสภาพแวดล้อมของคลาวด์ เช่น ระบบที่ใช้งานผ่านบริการคลาวด์จากผู้ให้บริการต่างๆ เช่น Amazon Web Services (AWS), Microsoft Azure</p>
+                                        <h3>2. การติดตั้งและตั้งค่าระบบปฏิบัติการเครื่องแม่ข่าย</h3>
+                                        <h4>-ขั้นตอนการติดตั้งระบบปฏิบัติการ</h4>
+                                        <p>การติดตั้งระบบปฏิบัติการสำหรับเครื่องแม่ข่าย (Server Operating System) เป็นกระบวนการที่ต้องการการวางแผนและการดำเนินการอย่างระมัดระวัง เพื่อให้ระบบสามารถทำงานได้อย่างมีประสิทธิภาพและปลอดภัย นี่คือลำดับขั้นตอนพื้นฐานในการติดตั้งระบบปฏิบัติการเครื่องแม่ข่าย:</p>
+                                        <p>1. เตรียมอุปกรณ์: เตรียมเครื่องแม่ข่าย, USB หรือแผ่นติดตั้ง, และเชื่อมต่อเครือข่าย</p>
+                                        <p>2. ตั้งค่า BIOS/UEFI: เข้า BIOS/UEFI และตั้งค่าบูตจาก USB หรือ DVD</p>
+                                        <p>3. บูตจากแหล่งติดตั้ง: บูตจาก USB หรือ DVD ที่มีไฟล์ติดตั้ง</p>
+                                        <p>4. ตั้งค่าภาษาและเวลา: เลือกภาษาและตั้งค่าพื้นฐาน เช่น เวลาและเขตเวลา</p>
+                                        <p>5. เลือกประเภทการติดตั้ง: เลือกติดตั้งใหม่หรืออัปเกรด</p>
+                                        <p>6. เลือกพาร์ติชัน: สร้างและเลือกพาร์ติชันสำหรับระบบ</p>
+                                        <p>7. ติดตั้งระบบปฏิบัติการ: เริ่มการติดตั้งระบบและกำหนดค่าพื้นฐาน</p>
+                                        <p>8. ตั้งค่าผู้ใช้: สร้างบัญชีผู้ใช้และตั้งรหัสผ่าน</p>
+                                        <p>9. ติดตั้งซอฟต์แวร์เพิ่มเติม: เลือกซอฟต์แวร์ที่จะติดตั้ง (เช่น Apache, MySQL)</p>
+                                        <p>10. ตั้งค่าเครือข่าย: กำหนด IP Address และการเชื่อมต่อเครือข่าย</p>
+                                        <p>11. รีบูตเครื่อง: หลังการติดตั้งเสร็จ ทำการรีบูตเครื่อง</p>
+                                        <p>12. ตรวจสอบการทำงาน: ตรวจสอบการทำงานของระบบและบริการต่างๆ</p>
+                                        <p>13. อัปเดตระบบ: อัปเดตระบบและติดตั้งซอฟต์แวร์เพิ่มเติมตามต้องการ</p>
+                                        <h4>-การตั้งค่าเริ่มต้นของระบบ</h4>
+                                        <p>การตั้งค่าเริ่มต้นของระบบปฏิบัติการเป็นขั้นตอนสำคัญที่ช่วยให้ระบบพร้อมใช้งานและทำงานได้ตามต้องการ นี่คือลำดับขั้นตอนของการตั้งค่าเริ่มต้น:</p>
+                                        <p>1. ตั้งชื่อเครื่อง (Hostname): กำหนดชื่อเครื่องเพื่อระบุในเครือข่าย</p>
+                                        <p>2. ตั้งค่าเวลาและเขตเวลา: เลือกเวลาและเขตเวลาให้ตรงกับภูมิภาค</p>
+                                        <p>3. ตั้งค่าเครือข่าย: กำหนดที่อยู่ IP และตั้งค่าเครือข่าย</p>
+                                        <p>4. ตั้งค่า DNS: กำหนด DNS Servers สำหรับการแปลงชื่อโดเมน</p>
+                                        <p>5. สร้างบัญชีผู้ใช้: สร้างบัญชีผู้ใช้และกำหนดสิทธิการเข้าถึง</p>
+                                        <p>6. ตั้งค่าความปลอดภัย: เปิดใช้งาน Firewall และตั้งค่า SELinux หรือ AppArmor</p>
+                                        <p>7. อัปเดตระบบ: อัปเดตระบบปฏิบัติการให้ทันสมัย</p>
+                                        <p>8. ติดตั้งซอฟต์แวร์ที่จำเป็น: ติดตั้งซอฟต์แวร์พื้นฐาน เช่น Apache, MySQL</p>
+                                        <p>9. ตั้งค่าการสำรองข้อมูล: ตั้งค่าการสำรองข้อมูลเพื่อป้องกันการสูญหาย</p>
+                                        <p>10. ตรวจสอบการทำงานของระบบ: ตรวจสอบสถานะการทำงานของเซอร์วิสต่างๆ</p>
+                                        <h4>-การตั้งค่าเครือข่ายและ IP Address</h4>
+                                        <p>1. IP Address แบบ Static: กำหนด IP คงที่</p>
+                                        <p>2. IP Address แบบ Dynamic (DHCP): รับ IP อัตโนมัติจาก DHCP</p>
+                                        <p>3. Subnet Mask: กำหนด Subnet เช่น 255.255.255.0</p>
+                                        <p>4. Gateway: ตั้ง Default Gateway</p>
+                                        <p>5. DNS Server: กำหนด DNS Server</p>
+                                        <p>6.ทดสอบการเชื่อมต่อ: ใช้คำสั่ง ping ตรวจสอบการเชื่อมต่อ</p>
+                                        <h3>3. การตั้งค่าและบริหารจัดการบริการในเครื่องแม่ข่าย</h3>
+                                        <h4>-การตั้งค่าและดูแลบริการพื้นฐาน เช่น HTTP, FTP, DNS, DHCP</h4>
+                                        <p>การตั้งค่าและดูแลบริการพื้นฐาน</p>
+                                        <p>1. HTTP: ติดตั้ง Apache หรือ Nginx</p>
+                                        <p>2. FTP: ติดตั้ง vsftpd</p>
+                                        <p>3. DNS: ติดตั้ง BIND</p>
+                                        <p>4. DHCP: ติดตั้ง ISC DHCP Server</p>
+                                        <h4>-การติดตั้งและตั้งค่าซอฟต์แวร์เซิร์ฟเวอร์ (เช่น Apache, Nginx)</h4>
+                                        <p>1. Apache: apt install apache2 → systemctl start apache2 → systemctl enable apache2</p>
+                                        <p>2. Nginx: apt install nginx → systemctl start nginx → systemctl enable nginx</p>
+                                        <p>3. การตั้งค่า: แก้ไขไฟล์การตั้งค่าใน /etc/apache2 (Apache) หรือ /etc/nginx (Nginx) และรีสตาร์ทบริการ</p>
+                                        <p>4. ทดสอบ: เปิดเบราว์เซอร์และพิมพ์ http://<IP หรือ hostname></p>
+                                        <h3>4. การดูแลรักษาและตรวจสอบระบบ</h3>
+                                        <h4>-การดูแลและบำรุงรักษาระบบปฏิบัติการ</h4>
+                                        <p>1.อัปเดตระบบ: ใช้คำสั่ง apt update && apt upgrade (Linux) หรือ "Windows Update"</p>
+                                        <p>2. ตรวจสอบระบบ: ใช้คำสั่ง top, htop, systemctl status (Linux) หรือ "Task Manager" (Windows)</p>
+                                        <p>3. สำรองข้อมูล: ใช้ rsync, tar (Linux) หรือ "Backup and Restore" (Windows)</p>
+                                        <p>4. จัดการ Log Files: ตรวจสอบใน /var/log/ (Linux) หรือ "Event Viewer" (Windows)</p>
+                                        <p>5. รักษาความปลอดภัย: ใช้ ufw หรือ iptables (Linux) หรือ "Windows Defender" (Windows)</p>
+                                        <h4>-การตรวจสอบและวิเคราะห์ประสิทธิภาพของเครื่องแม่ข่าย</h4>
+                                        <p>1. CPU Usage: ใช้คำสั่ง top หรือ htop (Linux) หรือ "Task Manager" (Windows)</p>
+                                        <p>2. Memory Usage: ใช้คำสั่ง free -h (Linux) หรือ "Task Manager" (Windows)</p>
+                                        <p>3. Disk Usage: ใช้คำสั่ง df -h (Linux) หรือ "This PC" (Windows)</p>
+                                        <p>4. Network Usage: ใช้คำสั่ง netstat หรือ iftop (Linux) หรือ "Resource Monitor" (Windows)</p>
+                                        <p>5. Log Files: ตรวจสอบใน /var/log/ (Linux) หรือ "Event Viewer" (Windows)</p>
+                                        <p>6. ทดสอบประสิทธิภาพ: ใช้ stress หรือ "Performance Monitor" (Windows)</p>
+                                        <h4>-การจัดการ Log Files</h4>
+                                        <p>1. ตรวจสอบ Log: ใช้ cat, less, tail -f (Linux) หรือ "Event Viewer" (Windows)</p>
+                                        <p>2. หมุนเวียน Log: ใช้ logrotate (Linux) หรือตั้งค่าใน "Event Viewer" (Windows)</p>
+                                        <p>3. เก็บ Log: กำหนดใน /etc/rsyslog.conf (Linux) หรือ "Event Viewer" (Windows)</p>
+                                        <p>4. วิเคราะห์ Log: ใช้ grep, awk (Linux) หรือ "Event Viewer" (Windows)</p>
+                                        <p>5. สำรอง Log: ใช้ rsync, tar (Linux) หรือ "Backup and Restore" (Windows)</p>
+                                        <h3>5. ความปลอดภัยในระบบปฏิบัติการเครื่องแม่ข่าย</h3>
+                                        <h4>-การตั้งค่าความปลอดภัยพื้นฐาน</h4>
+                                        <p>1. ใช้รหัสผ่านที่แข็งแรง: รหัสผ่านควรยาวและซับซ้อน รวมทั้งเปิดใช้การยืนยันตัวตนสองขั้นตอน (2FA) เมื่อเป็นไปได้</p>
+                                        <p>2. อัปเดตระบบและซอฟต์แวร์: ตรวจสอบและอัปเดตระบบปฏิบัติการและแอปพลิเคชันเพื่อปิดช่องโหว่</p>
+                                        <p>3. ติดตั้งและตั้งค่าไฟร์วอลล์: ควบคุมการเชื่อมต่อจากภายนอกให้ปลอดภัย</p>
+                                        <p>4. สำรองข้อมูล: สำรองข้อมูลสำคัญเพื่อป้องกันการสูญหาย</p>
+                                        <p>5. ควบคุมการเข้าถึง: กำหนดสิทธิ์การเข้าถึงตามความจำเป็น</p>
+                                        <p>6. ปิดบริการที่ไม่จำเป็น: ปิดบริการหรือโปรแกรมที่ไม่ใช้งานเพื่อลดช่องโหว่</p>
+                                        <p>7. ใช้โปรแกรมป้องกันไวรัส: ติดตั้งและอัปเดตโปรแกรมป้องกันไวรัสและมัลแวร์</p>
+                                        <h4>-การใช้งาน Firewall และการตั้งค่าเครื่องแม่ข่าย</h4>
+                                        <p>การใช้งาน Firewall:</p>
+                                        <p>1. ติดตั้งและตั้งค่าไฟร์วอลล์เพื่อควบคุมการเข้าถึงจากภายนอก</p>
+                                        <p>2. กำหนดกฎการเข้าถึงและบล็อกพอร์ตหรือการเชื่อมต่อที่ไม่จำเป็น</p>
+                                        <p>การตั้งค่า เครื่องแม่ข่าย:</p>
+                                        <p>1. กำหนดสิทธิ์การเข้าถึงผู้ใช้และอัปเดตระบบปฏิบัติการ</p>
+                                        <p>2. ปิดบริการที่ไม่จำเป็นและใช้การเข้ารหัสข้อมูลเพื่อเพิ่มความปลอดภัย</p>
+                                        <h4>-การป้องกันการโจมตีจากภายนอก (เช่น การใช้งาน SSL, การตั้งค่า VPN)</h4>
+                                        <p>1. SSL: ใช้ HTTPS แทน HTTP เพื่อเข้ารหัสข้อมูลระหว่างผู้ใช้และเว็บไซต์ ป้องกันการดักจับข้อมูล</p>
+                                        <p>2. VPN: ใช้ VPN สร้างการเชื่อมต่อที่ปลอดภัยระหว่างผู้ใช้และเซิร์ฟเวอร์ โดยเข้ารหัสข้อมูล เช่น การเชื่อมต่อระยะไกล</p>
+                                    </div>
+                                      
+                    
+                                    <!-- แท็บองค์การและการบริหารงานคุณภาพ -->
+                                    <div class="tab-pane fade" id="tab_c" style="text-align: center;">
+                                        <h3>องค์การและการบริหารงานคุณภาพ</h3>
+                                        <h4>1. ความหมายของกลยุทธ์ในองค์การ</h4>
+                                        <p>องค์การทุกแห่งที่อยู่รอดเติบโตได้นั้น จะต้องสามารถปรับตนเองให้เข้ากับเงื่อนไขสภาพแวดล้อม ที่เปลี่ยนแปลงเสมอ ทั้งนี้ด้วยเหตุผลจากการเกี่ยวข้องกันเป็นเชิงระบบนั่นเอง เพราะขณะใดขณะหนึ่ง ที่องค์การจัดตั้งขึ้นมานั้น สภาพภายในขององค์การจะจัดขึ้นโดยมีความสอดคล้องและเข้าได้กับสภาพแวดล้อม ในขณะนั้นมากที่สุด แต่เมื่อเวลาผ่านไป การเปลี่ยนแปลงของสภาพเศรษฐกิจ สังคม การเมือง และ วิทยาการใหม่ ๆ ที่เกิดขึ้นตลอดเวลาในสภาพแวดล้อมภายนอกนั้น จะส่งผลกระทบถึงสภาพองค์การภายใน ที่เคยจัดไว้นั้นด้วย และการที่องค์การจะสามารถมีประสิทธิภาพต่อไปได้ ก็ต่อเมื่อต้องมีการเปลี่ยนแปลง ให้เข้ากับเงื่อนไขใหม่ได้เสมอ</p>
+                                        <h4>การบริหารองค์การให้มีประสิทธิภาพจึงมีเรื่องที่สำคัญที่ต้องพิจารณา 2 ประการ คือ</h4>
+                                        <p>ประการที่ 1 ผู้บริหารต้องเข้าใจถึงลักษณะสภาพแวดล้อมที่เกี่ยวข้อง</p>
+                                        <p>ประการที่ 2 ผู้บริหารต้องเข้าใจว่าองค์การสัมพันธ์กับสภาพแวดล้อม อย่างไร โดยพิจารณาในแง่ของการพิจารณาปัจจัยสำคัญ ต่าง ๆ ตามความหมายของพฤติกรรมองค์การ</p>
+                                        <h4>กลยุทธ์ขององค์การ</h4>
+                                        <p>การที่องค์การได้แสดงความสัมพันธ์กับสภาพแวดล้อม โดยใช้วิธี การบริหารที่องค์การไปเกี่ยวข้องกับสภาพแวดล้อมที่มีกลุ่มต่าง ๆ ตัวบุคคล องค์การอื่น และสถาบันประเภทอื่น ทั้งหลายที่อยู่ภายในองค์การและนอกองค์การ แต่ในเวลาเดียวกันขณะที่สภาพแวดล้อมได้มีข้อจำกัด ควบคู่มาด้วยนั้น ในสภาพแวดล้อมเองก็ได้เปิดโอกาสต่าง ๆ ขึ้นมาด้วย ทั้งนี้โอกาสต่าง ๆ ที่เปิดขึ้นจะช่วยให้ องค์การสามารถใช้ความสามารถพิเศษของตนที่มีอยู่ และทรัพย์ที่เป็นจุดแข็ง ตลอดจนความคิดความอ่าน ที่จะดำเนินประโยชน์จากสภาพแวดล้อมที่เปิดโอกาสนั้นได้ โดยแสดงมาเป็นภาพได้ดังนี้</p>
+                                        <div style="display: flex; justify-content: center; align-items: center;">
+                                            <img src="images/100.jpg" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                        </div>
+                                    
+                                        <h4>2. กลยุทธ์ในฐานะเป็นเครื่องมือสำหรับ ใช้จัดให้สภาพแวดล้อมสอดคล้องกับ ทรัพยากร</h4>
+                                        <p>กลยุทธ์ หมายถึง กระบวนการที่องค์การพยายามจัดให้มีการใช้ทรัพยากรให้มีประสิทธิภาพ สอดคล้องกับความต้องการที่มีอยู่ และเข้ากันได้กับข้อจำกัดและโอกาสภายในสภาพแวดล้อมที่เกิดขึ้น การจัดให้เข้ากันของทรัพยากรขององค์การกับสภาพแวดล้อมนี้นับว่าเป็นเรื่องสำคัญที่เกี่ยวข้องกับ การพิจารณาขององค์การในแง่ของบทบาทที่องค์การจะแสดงออกภายในสภาพแวดล้อมที่เป็นอยู่ หรือก็คือการกำหนดจุดมุ่งหมายและนโยบายที่เกี่ยวกับความต้องการจะเป็นของบริษัทและธุรกิจที่บริษัทจะดำเนิน นั่นเอง จากที่กล่าวมาถ้าหากนำมากำหนดเป็นกรอบการคิดเกี่ยวกับกลยุทธ์แล้ว จะปรากฏตามรูปแบบต่าง ๆ องค์การจะมีการพิจารณาวิเคราะห์สภาพแวดล้อม เพื่อที่จะตูถึงข้อจำกัดต่าง ๆ ความต้องการและ โอกาสต่าง ๆ ที่มีอยู่ การตรวจสอบสภาพแวดล้อมนี้ในบางครั้งอาจจะมีการวิเคราะห์อย่างละเอียดและ จัดทำเป็นระบบ โดยแสดงเป็นภาพได้ดังนี้</p>
+                                        <div style="display: flex; justify-content: center; align-items: center;">
+                                            <img src="images/200.jpg" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                        </div>
+
+                                        <p>ในขอบเขตความหมายที่กว้างขึ้น กลยุทธ์จะเป็นเครื่องมือในการใช้กำหนดสิ่งที่องค์การต้องการ จะทำให้ได้ ซึ่งผลที่ตามมาภายหลังจากที่ได้มีการพัฒนากลยุทธ์ออกมาแล้ว ก็จะช่วยให้ทุก ๆ กลุ่มที่เกี่ยวข้อง ในองค์การ ทั้งในแง่ตัวบุคคล กลุ่มทำงาน และองค์การโดยรวม สามารถเห็นภาพที่ชัดเจนที่ต่างฝ่ายต่างก็จะ ดำเนินการไปได้ในทิศทางเดียวกัน จากที่กล่าวมาจะเห็นว่ากลยุทธ์และองค์การจะมีการเกี่ยวข้องกันและกัน ผสมผสานกัน ในอันที่จะช่วยชี้ให้เห็นถึงความมีประสิทธิผลขององค์การว่ามีมากน้อยเพียงใด โดยแสดง เป็นภาพได้ดังนี้</p>
+                                        <div style="display: flex; justify-content: center; align-items: center;">
+                                            <img src="images/300.jpg" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                        </div>
+
+                                        <h4>3. กลยุทธ์การบริหารที่ทรงประสิทธิภาพ</h4>
+                                        <p>1. การบริหารต้องเป็นระบบครบทุกด้าน โดยต้องคำนึงถึงทั้งการวางแผน การดำเนินงาน และการควบคุมอย่างมีประสิทธิภาพ</p>
+                                        <p>2. การกำหนดแผนงานที่มีประสิทธิภาพ โดยอาศัยเป้าหมายที่ชัดเจนและการมีส่วนร่วมจากพนักงานในการกำหนดเป้าหมายเหล่านั้น</p>
+                                        <P>3. การใช้เทคนิคต่าง ๆ เช่น การวัดผล การจูงใจ การควบคุม และการพัฒนา เพื่อเสริมสร้างประสิทธิภาพการทำงานในทุกขั้นตอน</P>
+                                        <p>4. การใช้กลยุทธ์ต่าง ๆ เช่น การบริหารโดยเป้าหมาย (MBO), การวางแผนกลยุทธ์ระยะยาว และการสร้างผลสำเร็จร่วมกันระหว่างฝ่ายบริหารและฝ่ายปฏิบัติ</p>
+                                        <p>กลยุทธ์เหล่านี้จะช่วยให้เกิดความผูกพันจากพนักงาน เพิ่มขวัญกำลังใจ และกระตุ้นให้เกิดผลผลิตที่สูงขึ้น รวมถึงการปรับตัวให้สอดคล้องกับปัญหาหรือความท้าทายที่จะเกิดขึ้นในอนาคต.</p>
+                                        <p>กล่าวโดยสรุป กลยุทธ์การบริหารที่ทรงประสิทธิภาพแต่ละประการตามที่กล่าวข้างต้นนี้อาจกล่าว ได้ว่า ก็คือการบริหารเชิงรวมที่เป็นภารกิจหางการบริหารของผู้บริหารที่มีอยู่เป็นพิเศษ คือ
+
+                                            1 การใช้วิธีบริหารแบบมุ่งหมาย (Goal-Oriented Management) เป็นสำคัญ ทั้งนี้ก็เพราะ ในภาวะเศรษฐกิจที่ประสบปัญหาวิกฤตนั้น ประสิทธิภาพผลผลิตที่ทำได้จะเป็นเรื่องสำคัญยิ่งที่นักบริหาร จะต้องวัดผลและคิดตามตลอดเวลา การตั้งเป้าหมายผลสำเร็จที่ต้องการ และการติดตามผลงานที่ทำได้ ต่างก็ต้องอาศัยเป้าหมายเป็นเครื่องมือที่จะขาดเสียมิได้
+                                            
+                                            2 การจัดระบบการวางแผนที่สมบูรณ์ ทั้งนี้ก็เพื่อให้องค์การมีความเข้มแข็งจากการมีระบบ การวางแผนกลยุทธ์สำหรับระยะยาว รวมทั้งการมีระบบการวางแผนที่สามารถระบุเป้าหมายผลสำเร็จต่าง ๆ ที่จะสามารถนำมาใช้บริหารงาน เพื่อผลสำเร็จร่วมกันทั้งสองฝ่าย คือ ฝ่ายบริหารและฝ่ายปฏิบัติ
+                                            
+                                            3 การจัดระบบการบริหารงานในขั้นปฏิบัติที่ดีพร้อม นั่นคือการใช้ระบบการวัดผล ประเมินผล การจูงใจทรัพยากรบุคคล ตลอดจนระบบการควบคุม เพื่อใช้เป็นเครื่องมือที่เหมาะสมสำหรับการเสริมสร้าง ประสิทธิภาพผลผลิตให้สูงขึ้นได้ตลอดเวลา</p>
+
+                                        <h4>4. ส่วนผสมของกลยุทธ์</h4>
+                                        <p>การดำเนินตามกระบวนการจัดการเชิงกลยุทธ์ ผู้จัดการต้องออกแบบกลยุทธ์องค์การ (Organizational Strategy) ซึ่งเป็นแผนการปฏิบัติในภาพรวมโดยมีจุดมุ่งหมายเพื่อช่วยให้องค์การบรรลุเป้าหมายต่าง ๆ ในช่วงเวลาที่กำหนด ดังนั้นกลยุทธ์องค์การอาจไม่ใช่เอกสารการวางแผนที่จัดทำขึ้นแล้วนำไปปฏิบัติ แต่กลยุทธ์ต้องมีการปรับปรุงและพัฒนาอย่างต่อเนื่อง เพื่อให้สอดคล้องกับสภาพแวดล้อมปัจจุบัน ต้องมี การผสมผสานระหว่างองค์การที่ท้าทายความสามารถขององค์การในการบรรลุเป้าหมาย
+                                           กลยุทธ์มีส่วนในการกำหนดทิศทางและกรอบการจัดการให้กับองค์การ ของกลยุทธ์แสดงถึงรายการของสินค้าและบริการที่องค์การนำเสนอต่อลูกค้า มีการกำหนดขอบเขต ในการกำหนดขอบเขตของกลยุทธ์ ทำให้ผู้จัดการใช้ในการเลือกคนขึ้นมา ความสามารถพิเศษขององค์การอันเกิดจากบุคลากรขององค์การที่มีอยู่ ซึ่งสัมพันธ์กับขอบเขตที่องค์การเลือก ความสามารถพิเศษต้องมีความยั่งยืนในระยะยาวจึงจะทำให้องค์การ ดำเนินงานไปได้อย่างมีคุณภาพ ในระดับกลยุทธ์เมื่อองค์การได้กำหนดเป้าหมายและจัดทำแผนในระดับต่าง ๆ ผู้จัดการจำเป็นต้องมีแผนกลยุทธ์ในแต่ละระดับเช่นกัน เพื่อให้เกิดการตัดสินใจและการปฏิบัติเป็นไป ทั่วทั้งองค์การ ดังนั้นกลยุทธ์ขององค์การจึงประกอบด้วย 3 ระดับ ได้แก่</p>
+                                        <p>1. กลยุทธ์ระดับองค์การ (Corporate-Level Strategy) คือการกำหนดทิศทางในภาพรวม ขององค์การ กำหนดธุรกิจที่องค์การจะเข้าไปแข่งขันและการจัดสรรทรัพยากรองค์การ กลยุทธ์ระดับองค์การถือเป็นพลังที่ใช้ขับเคลื่อนเป้าหมายและแผนเชิงกลยุทธ์ที่จุดสูงสุดในกระบวนการวางแผนโดยกำหนดแนวทาง อย่างกว้าง ๆ ให้กับผู้จัดการฝ่ายต่าง ๆ ตลอดทั้งองค์การให้ดำเนินตามเพื่อให้บรรลุวัตถุประสงค์ขององค์การนั้นๆ</p>
+                                        <p>2. กลยุทธ์ระดับธุรกิจ (Business-Level Strategy) ซึ่งถูกกำหนดโดยผู้บริหารระดับสูง และคณะที่ปรึกษาทางธุรกิจ การดำเนินงานขององค์การวางรากฐานของธุรกิจในอนาคต โดยกลยุทธ์ระดับธุรกิจ อเป็นพลังขับเคลื่อนเป้าหมายและแผนเชิงกลวิธีต่าง ๆ ซึ่งเป็นวิถีทางในการบรรลุเป้าหมายและแผน ชิงกลยุทธ์ในภาพรวมขององค์การในกระบวนการ</p>
+                                        <p>3 กลยุทธ์ระดับหน้าที่ (Functional-Level Strategy) กลยุทธ์ระดับนี้สนับสนุนกลยุทธ์ระดับ ธุรกิจ มีกิจกรรมเฉพาะต่าง ๆ ในแต่ละหน้าที่ภายในองค์การ เช่น การตลาด การผลิต การผลิต การเงินและหน้าที่อื่น ๆ กลยุทธ์ระดับหน้าที่เป็นการสร้างให้เกิดข้อได้เปรียบทางการแข่งขัน (Competitive advantage) ซึ่งเป็น สาเหตุให้ธุรกิจประสบความสำเร็จขึ้นอยู่กับคุณค่า (Value) ซึ่งองค์การสามารถสร้างลูกค้าได้ งานของ การสร้างคุณค่าเกิดขึ้นภายในจากหน้าที่ต่าง ๆ ซึ่งอยู่ภายในธุรกิจ หน้าที่เหล่านี้จะต้องเชื่อมโยง จะต้อง สอดคล้องกันเป็นโครงสร้างงาน ซึ่งเรียกว่าเครือข่ายในการสร้างคุณค่า (Value chain) ทุกหน้าที่มีส่วน สร้างคุณค่าและข้อได้เปรียบทางการแข่งขันโดยคำนึงถึงคุณภาพ ประสิทธิภาพและการส่งมอบคุณค่า ให้กับลูกค้าหรือผู้รับบริการ</p>
+                                        <p>ดังนั้นการดำเนินกิจการต้องปฏิบัติอย่างสอดคล้องกับกลยุทธ์ระดับองค์การ และกลยุทธ์ระดับธุรกิจ มีการวางแผนกลยุทธ์การดำเนินงานไว้อย่างผสมผสานบทบาทหน้าที่มีความสำคัญในการสร้างงานสร้างความแตกต่างของผลิตภัณฑ์ การทำให้ต้นทุนผลิต หรือต้นทุนในการขาย การบริการต่ำลง ส่งผลให้ธุรกิจมีผลกำไรเพิ่มมากขึ้น การสร้างความจงรักภักดี ให้กับลูกค้าและแสวงหาวิธีการที่มีประสิทธิผลอื่น ๆ ในการดึงดูดให้ลูกค้าอยู่กับเราให้นาน การปรับปรุง พัฒนาผลิตภัณฑ์เป็นสิ่งจำเป็น ผู้จัดการระดับต้น ๆ ต้องพัฒนาส่งมอบคุณค่าที่ดีให้กับลูกค้า</p>
+
+                                        <h4>5. กรณีศึกษาการกำหนดกลยุทธ์ อย่างมีเป้าหมายและชัดเจน</h4>
+                                        <p>กรณีศึกษา การดำเนินงานของ “เซเว่น อีเลฟเว่น” นั้นมีเป้าหมายที่ชัดเจนในการยึดหลักการดำเนิน ธุรกิจด้วยความจริงใจ ซื่อสัตย์สุจริต และไม่หวังผลกำไรเกินควร อีกทั้งดำรงความเป็นองค์กรที่มีส่วนร่วม ในการพัฒนาวิถีไทยให้ดำเนินไปอย่างมีคุณค่า ซึ่งนำมาสู่วิสัยทัศน์ขององค์การ คือ “เราให้บริการความสะดวก กับทุกชุมชน” และปรัชญาขององค์การคือ “เราปรารถนารอยยิ้มจากลูกค้าด้วยทีมงานที่มีความสุข” เพื่อเดินไปสู่พันธกิจที่วางไว้ว่า “มุ่งสร้างความผูกพันกับลูกค้า ด้วยการสรรหาสินค้าและบริการที่มีคุณภาพ ภายใต้การบริหารงานแบบ Harmony พร้อมทั้งสร้างสัมพันธภาพที่ดีกับสังคมและชุมชน”ดังนั้นคณะผู้บริหารและพนักงานทุกคนของเซเว่น อีเลฟเว่นจึงมุ่งมั่นค้นหาและตอบสนอง ความต้องการของลูกค้าที่เปลี่ยนแปลงตลอดเวลาทั้งในปัจจุบันและอนาคต โดยเน้นความสะดวกซื้อและบริการที่เป็นเลิศ ด้วยเครือข่ายที่ครอบคลุมและมีประสิทธิภาพของพันธมิตร</p>
+                                        <p>งหนึ่งที่เซเว่น อีเลฟเว่นนั้นได้รับการยอมรับกันมากในวงการธุรกิจก็คือ “ความเป็นเลิศในด้าน การมีภาวะผู้นำ” ความสำเร็จส่วนนี้จะเกิดขึ้นเองไม่ได้ ถ้าขาดผู้บริหารที่มีวิสัยทัศน์อันกว้างไกล และให้ความสำคัญกับการพัฒนาบุคลากรควบคู่ไปกับการพัฒนาองค์การมาโดยตลอด ซึ่งมาจากการ สร้างค่านิยม 11 ประการ เพื่อเป็นแนวทางในการสร้างคนที่มีคุณภาพ ซึ่งได้แก่</p>
+                                        <p>1. มีความจริงใจ ไม่หลอกใช้ผู้อื่น</p>
+                                        <p>2. ไม่ศักดินา ไม่แบ่งชั้นวรรณะ ไม่ยกตนข่มท่าน ไม่แบ่งแยกสถาบัน</p>
+                                        <p>3. ใช้ปิยวาจา เป็นผู้ฟังที่ดี ใช้คำพูดในเชิงสร้างสรรค์</p>
+                                        <p>4. อย่าหลงอำนาจ ไม่ยึดอำนาจ ตำแหน่งหน้าที่ ไม่ข่มเหงผู้น้อย</p>
+                                        <p>5. เป็นแบบอย่างที่ดี มีความขยัน มีวินัยในตนเอง และทัศนคติที่ดีต่อการทำงาน</p>
+                                        <p>6. มีความยุติธรรม ไม่ฟังความข้างเดียว ไม่หลงเชื่อคนง่าย</p>
+                                        <p>7. ให้ความเมตตา ให้ความช่วยเหลือลูกน้องด้วยความเต็มใจ</p>
+                                        <p>8. กล้าตัดสินใจ ตัดสินใจบนพื้นฐานของหลักการข้อเท็จจริงและประสบการณ์</p>
+                                        <p>9. อาทรสังคม ส่งเสริมสังคมด้วยความรับผิดชอบ</p>
+                                        <p>10. บ่มเพาะคนดี สร้างคนมีความสามารถให้กับองค์การ</p>
+                                        <p>11. มีใจเปิดกว้าง รับฟังความเห็นของผู้ร่วมงานทุกระดับ เปิดใจรับแนวคิดใหม่ ๆ ของโลก</p>
+                                        <div style="display: flex; justify-content: center; align-items: center;">
+                                            <img src="images/400.jpg" alt="Image" class="img-responsive" style="width: 30%; height: auto;">
+                                        </div>
+
+                                        <h4>6. ประสิทธิภาพของการทำงานอาชีวศึกษา และตลาดแรงงานในประเทศไทย</h4>
+                                        <p>ในการศึกษาความสัมพันธ์ระหว่างการเรียนสายอาชีวศึกษาและสถานภาพการทำงาน ได้แบ่ง สถานภาพการทำงานออกเป็น 5 ประเภท ได้แก่ นายจ้าง ผู้ที่ประกอบธุรกิจส่วนตัวโดยไม่มีลูกจ้าง ลูกจ้าง เอกชน ผู้ที่ทำงานให้ครอบครัวโดยไม่ได้รับค่าจ้างและอื่น ๆ (ซึ่งรวมลูกจ้างรัฐบาล ลูกจ้างรัฐวิสาหกิจ ผู้รับจ้างทำงานหลายเจ้าและการรวมกลุ่ม) ผลการศึกษาพบว่า ผู้ที่เรียนสายอาชีวศึกษามีโอกาสทำงาน ในสถานะผู้ที่ประกอบธุรกิจส่วนตัวโดยไม่มีลูกจ้างและผู้ที่ทำงานให้ครอบครัวโดยไม่ได้รับค่าจ้างน้อยกว่า การทำงานในสถานะอื่น ๆ สำหรับประเภทของงาน (ซึ่งแบ่งเป็นภาคการผลิตขั้นพื้นฐาน ภาคอุตสาหกรรม และภาคบริการ) ผลการศึกษาพบว่า สำหรับผู้ชายที่เรียนสายอาชีวศึกษานั้น มีโอกาสที่จะทำงานภาค การผลิตขั้นพื้นฐานน้อยกว่าการท้างานในภาคบริการ ในส่วนของผู้หญิงที่เรียนสายอาชีวศึกษา มีโอกาส ที่จะทำงานภาคการผลิตขั้นพื้นฐานและภาคอุตสาหกรรมน้อยกว่าการทำงานในภาคบริการ ทั้งนี้ผลการศึกษา สอดคล้องกับวัตถุประสงค์ของการศึกษาในสายอาชีพเพื่อฝึกทักษะที่เกี่ยวข้องกับการจ้างงาน โดยเฉพาะ สำหรับภาคอุตสาหกรรมและภาคบริการ</p>
+                                        <p>ระดับทักษะในการทำงาน แบ่งเป็นงานที่ใช้ทักษะขั้นสูง (high skilled) งานที่ใช้ทักษะด้านฝีมือหรือแรงงาน (skilled manual) งานที่ใช้ทักษะที่ไม่ใช่ด้านฝีมือหรือแรงงาน (skilled non-manual) และ งานที่ไม่ใช้ทักษะ (low skilled) ซึ่งผลการศึกษาพบว่าผู้ชายที่เรียนด้านอาชีวศึกษามีแนวโน้มที่จะทำงาน ที่ใช้ทักษะขั้นสูง งานที่ใช้ทักษะด้านฝีมือหรือแรงงาน งานที่ใช้ทักษะที่ไม่ใช่ด้านฝีมือหรือแรงงานมากกว่า การทำงานที่ไม่ใช้ทักษะ โนขณะที่ผู้หญิงที่เรียนด้านอาชีวศึกษามีแนวโน้มที่จะทำงานที่ใช้ทักษะขั้นสูงและ งานที่ใช้ทักษะด้านที่ไม่ใช่ด้านฝีมือหรือแรงงานมากกว่างานที่ไม่ใช้ทักษะและงานที่ใช้ทักษะด้านฝีมือหรือแรงงาน</p>
+                                        <p>จากการศึกษานี้พบว่า การเรียนอาชีวศึกษาเป็นการเตรียมบุคคลเข้าสู่ตลาดแรงงานบางประเภท ที่ใช้ทักษะและข้อได้เปรียบนี้ส่งผลให้ผู้ที่เรียนอาชีวศึกษามีรายได้สูงกว่าผู้ที่เรียนจบชั้นมัธยมศึกษาปีที่ 6 สายสามัญ ซึ่งผลการศึกษานี้สนับสนุนให้มีการพัฒนาอาชีวศึกษาในประเทศไทยให้มีคุณภาพและเป็นที่ นิยมมากขึ้น (ที่มา : จากหนังสือพิมพ์ฐานเศรษฐกิจ ปีที่ 37 ฉบับที่ 3,323 วันที่ 17-20 ธันวาคม พ.ศ. 2560)</p>
+
+                                        <h4>7. กลยุทธ์ค่าตอบแทน</h4>
+                                        <p>กลยุทธ์ค่าตอบแทนที่เป็นธรรมกับทุกฝ่าย องค์การจะจ่ายค่าตอบแทนระบบใดขึ้นอยู่กับ ขีดความสามารถและศักยภาพที่แท้จริงขององค์การ ซึ่งแตกต่างกันไปแต่ละองค์การ อย่างไรก็ตามการจัดระบบ ค่าตอบแทนที่ดีต้องไม่สร้างความเสียหายให้กับผู้ปฏิบัติงาน องค์การต้องพยายามทำให้เกิดความพึงพอใจ กับพนักงานให้มากที่สุด เพราะการจ่ายค่าตอบแทนที่เป็นธรรม เป็นการรักษาดุลยภาพของผู้เกี่ยวข้อง กลยุทธ์การจ่ายค่าตอบแทน มีดังนี้</p>
+                                        <p>1.การจ่ายค่าตอบแทนต้องให้เกิดความเป็นธรรมภายในองค์การ หมายความว่า ลักษณะงาน ที่แตกต่างกันระบบการจ่ายค่าตอบแทนอาจจะแตกต่างกันไป งานใดมีความสำคัญและสร้างมูลค่าตอบแทน ในสาขาอาชีพที่ขาดแคลน หากสาขาอาชีพใดสำคัญกับองค์การหรือขาดแคลน องค์การก็จ่ายค่าตอบแทน ให้สูงขึ้น เพื่อลดปัญหาการขาดแคลนในสาขาอาชีพนั้น ๆ</p>
+                                        <p>2.การจ่ายค่าตอบแทนต้องเทียบเคียงกับภายนอกได้ จ่ายให้ระดับสูงกว่าองค์การอื่น ๆ หากองค์การ ต้องการสร้างภาพลักษณ์ที่เหนือกว่าองค์การอื่น ๆ หรือต้องการคัดเลือกบุคลากรที่มีความสามารถสูงกว่าทั่วไป หรือเน้นที่ตัวเงินไม่เน้นการให้สวัสดิการ หรือเนื้องานมีมากกว่าในตำแหน่งเดียวกัน องค์การก็อาจใช้วิธีการจ่าย ให้สูงกว่าองค์การอื่น ๆ หรือจ่ายให้ระดับเท่ากันกับองค์การอื่น ๆ องค์การอาจไม่สามารถจะจ่ายให้ต่ำกว่าได้ หรือไม่สามารถจ่ายให้สูงกว่าได้ เนื่องจากเหตุผลต่าง ๆ องค์การจึงต้องจ่ายให้ในระดับมาตรฐานทั่ว ๆ ไป เพื่อคงระดับของการแข่งขันเอาไว้</p>
+                                        <p>3.การจ่ายค่าตอบแทนต้องเป็นธรรมกับพนักงาน</p>
+                                        <p>4.การจ่ายค่าตอบแทนต้องให้สอดคล้องกับศักยภาพขององค์การ ควรมีค่าตอบแทนอื่น ๆ เช่น ประโยชน์และบริการที่พนักงานได้รับนอกเหนือไปจากเงินเดือนและค่าจ้าง เช่น ประกันสังคม ค่ารักษา พยาบาล การลาโดยได้รับค่าจ้าง การประกันสุขภาพและชีวิต ค่าขนย้าย เงินช่วยเหลือการศึกษาบุตร</p>
+                                        <p>รางวัลตอบแทนด้านอาชีพ (Career Reward) เป็นรางวัลตอบแทนให้พนักงานเพื่อให้มีอาชีพที่มี ความมั่นคง มีโอกาสก้าวหน้า พัฒนาตนเองและมีความยืดหยุ่นในอาชีพที่อาจเปลี่ยนแปลงได้เมื่อต้องการ</p>
+                                        <p>รางวัลตอบแทนด้านสังคม (Social Reward) เป็นรางวัลตอบแทนโนด้านสถานภาพ และสภาพแวดล้อมในการทำงาน เช่น การให้สัญลักษณ์การแสดงสถานภาพ การให้การยกย่องชมเชย ผลการทำงาน ความสนุกสนานในการทำงาน การมีเพื่อนร่วมงานที่ดี</p>
+                                    </div>
+
+
+                                        
+                                        
+                    
+                                    <!-- แท็บสังคมไทยในยุคดิจิทัล -->
+                                    <div class="tab-pane fade" id="tab_d" style="text-align: center; ">
+                                        <h3>สังคมไทยในยุคดิจิทัล</h3>
+                                        <h4>1. ความหมายของยุคดิจิทัล (Digital Era)</h4>
+                                        <p>ยุคดิจิทัล (Digital Era) คือ ยุคของอิเล็กทรอนิกส์ทั้งด้านที่เกี่ยวข้องกับเทคโนโลยีที่ใช้ความรวดเร็ว ในการสื่อสาร ข้อมูล ความรู้ต่าง ๆ เช่น ข่าว ภาพ วิดีโอ ทำให้ทุกคนสามารถเข้าถึงได้อย่างรวดเร็ว ทุกที่ ทุกเวลานับตั้งแต่การเกิดระบบอินเทอร์เน็ตและพัฒนาการของเทคโนโลยีด้านการสื่อสารและระบบ คอมพิวเตอร์ ทำให้สังคมออนไลน์เข้ามาอยู่ในชีวิตประจำวันของคนทั่วโลก การถ่ายโอนกิจวัตรประจำวัน ของคนทั่วโลกไปสู่สังคมออนไลน์ก็มีมากขึ้นตามลำดับ ทำให้คนที่อยู่ในทุกมุมโลกสามารถเชื่อมหากันได้ง่าย สังคมออนไลน์จึงมีความสำคัญควบคู่ไปกับสังคมปกติในชีวิตประจำวันของคนทั่วโลก</p>
+                                        <h4>2. ประเภทของเครือข่ายสังคมออนไลน์</h4>
+                                        <p>ประเภทของเครือข่ายสังคมออนไลน์ที่นิยมใช้ในปัจจุบันมีดังนี้</p>
+                                        <p>ประเภทที่ 1 เครือข่ายสังคมออนไลน์ที่เน้นการสร้างเครือข่ายทางสังคมในอินเทอร์เน็ต และเชื่อมโยงเป็นกลุ่มบุคคลเพื่อติดต่อสื่อสารหรือติดตามข้อมูลระหว่างกัน </p>
+                                        <p>สำหรับเครือข่ายสังคมออนไลน์ที่เป็นที่นิยมของคนไทยและใช้กันมากในชีวิตประจำวันมีดังนี้</p>
+                                        <p>1. Facebook เป็นสื่อสังคมออนไลน์หลักของคนไทย จากข้อมูลของ The Web Flight Co., Ltd (TWF Agency) พบว่า คนไทยมีบัญชีเฟซบุ๊กราว 51 ล้านบัญชี (84.9 ของจำนวนประชากรอายุ 13 ปีขึ้นไป) โดยเป็นเครือข่ายสังคมออนไลน์ที่เปิด โอกาสให้สมาชิกสร้างข้อมูลส่วนตัว (Profile) และการติดตามเครือข่ายสังคมออนไลน์ ในลักษณะของเพื่อน (Frend) กลุ่มที่สนใจ (Group) โดยที่สมาชิกสามารถโพสต์ข้อความ ภาพ วิดีโอเพื่อให้สมาชิกในเครือข่ายสังคมออนไลน์ทราบ ตลอดจนทราบการเคลื่อนไหวของเพื่อนหรือกลุ่มที่ ตนติดตามได้ นอกจากนี้ยังสามารถส่งต่อ (Share) เพื่อขยายการรับรู้ข้อมูลของตนไปยังเพื่อนหรือกลุ่มได้</p>
+                                        <p>2. Instagram (IG) เป็นสื่อสังคมออนไลน์หลักของคนไทยอีกเครือข่ายหนึ่ง จากข้อมูลของ The Web Flight Co., Ltd (TWF Agency) พบว่า คนไทยมีบัญชี อินสตาแกรมราว 16 ล้านบัญชี (26.6 ของจำนวนประชากรอายุ 13 ปีขึ้นไป) โดยที่ อินสตาแกรมมีการติดตามเพื่อนเช่นเดียวกับเฟซบุ๊ก แต่เน้นการโพสต์ภาพและวิดีโอพร้อมคำบรรยายภาพ ไม่สามารถโพสต์ข้อความอย่างเดียวเหมือนเฟชบุ๊กได้ มีฟังก์ชันการตกแต่งรูป ให้น่าสนใจ</p>
+                                        <p>3. X หรือที่รู้จักกันในชื่อเดิมว่า Twitter เป็นสื่อสังคมออนไลน์บนแพลตฟอร์ม โซเชียลมีเดียที่ผู้ใช้สามารถโพสต์ข้อความสั้น ๆ ที่เรียกว่า หวีด ความยาวสูงสุด 280 ตัวอักษร ทวีดเหล่านี้สามารถประกอบด้วยข้อความ รูปภาพ วิดีโอ และลิงก์ ผู้ใช้สามารถ ติดตาม ผู้ใช้รายอื่นเพื่อดูทวีตของพวกเขา โต้ตอบ กับทวีตโดย กดไลก์ คอมเมนต์ และรีทวีต ค้นหา เนื้อหาที่เกี่ยวข้องกับหัวข้อที่สนใจ สร้างกลุ่ม ส่งข้อความส่วนตัว เข้าร่วมแฮชแท็ก และอื่น ๆ อีกมากมาย</p>
+                                        <p>ประเภทที่ 2 เครือข่ายสังคมออนไลน์ที่เน้นการแบ่งปันระหว่างกันในบทบาทของผู้นำเข้าข้อมูล หรือผลตอบแทนจากเว็บไซต์ และเจ้าของเว็บไซต์อาจได้รับผลตอบแทนจากการโฆษณาผลิตภัณฑ์ต่าง ๆ</p>
+                                        <p>ประเภทที่ 3 เครือข่ายสังคมออนไลน์ที่เน้นการถ่ายทอดเรื่องราว หรือข้อความแก่สมาชิกหรือบุคคลทั่วไป เรียกว่า บล็อก (Blog) หรือ เว็บปล็อก (Weblog) คือ สื่อส่วนบุคคลที่เรียกว่า บล็อกเกอร์ (Blogger) ใช้เผยแพร่ข้อมูล ข่าวสาร ข้อคิดเห็นส่วนตัวของผู้นั้น และสามารถแบ่งปันให้บุคคลอื่น ๆ เข้าไปอ่าน หรือแสดงความคิดเห็นเพิ่มเติมได้ การแสดงเนื้อหาของบล็อกจะเรียงลำดับ ตามห้วงเวลา กรณีการเขียนข้อความสั้น ๆ เพื่อแสดงสถานะตนเองว่าทำอะไร หรือแจ้งข่าวสารที่มีใจความสำคัญแก่คนในกลุ่มสังคมออนไลน์ด้วยกัน เรียกว่า ไมโครบล็อก (Micro Blog)</p>
+                                        <p>ประเภทที่ 4 เครือข่ายสังคมออนไลน์ที่เน้นการระดมความร่วมมือของสมาชิกที่สนใจ ในสิ่งเดียวกันเพื่อผลักดันประเด็นหนึ่ง ๆ ให้ประสบความสำเร็จ ทั้งการระดมกำลัง ทั้งความคิด กำลังทรัพย์ หรือที่เรียกว่า Crowdsourcing</p>
+                                        <p>ประเภทที่ 5 เครือข่ายสังคมออนไลน์ที่เน้นการสร้างสถานการณ์ บนโลกออนไลน์เพื่อให้สมาชิกหรือผู้ใช้บริการเข้าสื่อสารหรือกระทำการระหว่างกัน บนอินเทอร์เน็ตในลักษณะโลกเสมือนจริง (Virtual Reality/Virtual Worlds) ในรูปแบบที่เรียกว่า “จักรวาลนฤมิต (Metaverse)” โดยการสร้างสภาพแวดล้อม ของโลกแห่งความจริงและเทคโนโลยีเข้าด้วยกัน ด้วยเทคโนโลยีผสานโลกแห่งความจริง และวัตถุต่าง ๆ เข้าด้วยกัน (Augmented Reality : AR) และการจำลองภาพ ให้เสมือนจริงแบบ 360 องศา (Virtual Reality : VR)</p>
+                                        <p>ประเภทที่ 6 เครือข่ายสังคมออนไลน์ที่เน้นลักษณะของพื้นที่ ใช้สำหรับการแลกเปลี่ยน บทสนทนา การพูดคุย การอภิปรายในสังคมออนไลน์</p>
+                                        <p>ประเภทที่ 7 เครือข่ายสังคมออนไลน์ที่เน้นการสร้างสื่อกลางแลกเปลี่ยนสินค้าหรือบริการ ในลักษณะสกุลเงินดิจิทัล (Cryptocurrency) โดยอาศัยกลไกทางคณิตศาสตร์เพื่อกำหนดจำนวน และเทคโนโลยีบล็อกเซน (Blockchain) เป็นตัวช่วยด้านความปลอดภัย (Security) และความน่าเชื่อถือ (Trust) ในการทำธุรกรรมการเงินโดยไม่ต้องอาศัยคนกลาง ผู้คนส่วนหนึ่งใช้สกุลเงินดิจิทัลเพื่อการ แลกเปลี่ยนบนโลกออนไลน์ บางส่วนถือครองไว้สำหรับการเก็งกำไรในภาวะของความผันผวนของค่าเงิน สกุลต่าง ๆ</p>
+                                        <p>ประโยชน์และข้อจํากัดของเครือข่ายสังคมออนไลน์</p>
+                                        <p>สังคมออนไลน์มีประโยชน์ในชีวิตประจำวันและการทำงานดังนี้</p>
+                                        <p>* เป็นพื้นที่ที่ทำให้บุคคลสามารถแลกเปลี่ยนข้อมูลซึ่งกันและกันโดยไม่จำกัด ด้านระยะทางและสถานที่ ขอบลง</p>
+                                        <p>* เป็นช่องทางการติดต่อสื่อสารแนวใหม่ทั้งของภาครัฐและภาคเอกชน เนื่องจากลดภาร ด้านบุคลากรและค่าใช้จ่ายต่าง ๆ ตลอดจนสื่อสารได้เป็นวงกว้าง</p>
+                                        <p>* เป็นคลังข้อมูลความรู้จำนวนมหาศาลเพื่อตอบสนองความต้องการของบุคคล ในทางกลับกั เป็นช่องทางการเผยแพร่ความรู้ของบุคคลสู่สังคมเป็นวงกว้าง</p>
+                                        <p>* ช่วยลดค่าใช้จ่ายในด้านต่าง ๆ เช่น</p>
+                                        <p>- ด้านการจัดทำเอกสาร การถ่ายสำเนา โดยใช้การจัดทำเป็นเอกสารอิเล็กทรอนิกส์ (E-document) แทน</p>
+                                        <p>- ด้านสถานที่ เช่น จากการใช้ห้องประชุม การเช่าห้องประชุม ห้องเรียน มาเป็นการใช้ห้อง ทางออนไลน์แทน</p>
+                                        <p>- ด้านค่าธรรมเนียม เช่น การชำระ ค่าสาธารณูปโภคต่าง ๆ บุคคลสามารถทำได้เอง ผ่านระบบออนไลน์</p>
+                                        <p>* สร้างความสะดวกสบายมากกว่าในอดีต</p>
+                                        <p>ทั้งนี้เนื่องจากการเข้าถึงสังคมออนไลน์ได้จะต้องประกอบด้วยองค์ประกอบหลัก ดังนี้</p>
+                                        <p>* ด้านบุคคล</p>
+                                        <p>บุคคลต้องมีความรู้ในเรื่องการใช้อุปกรณ์และโปรแกรมการใช้งานและการเข้าถึงสือสังคม ออนไลน์</p>
+                                        <p>* ด้านอุปกรณ์</p>
+                                        <p>อุปกรณ์คอมพิวเตอร์จะต้องรองรับการเข้าระบบอินเทอร์เน็ตและการติดตั้งโปรแกรม เพื่อการใช้งานสื่อสังคมออนไลน์ได้ ไม่ว่าจะอยู่ในรูปของคอมพิวเตอร์ตั้งโต๊ะ โน้ตบุ๊ก โทรศัพท์มือถือ หรืออุปกรณ์อื่นใดที่สามารถประมวลผลได้ในลักษณะเดียวกัน</p>
+                                        <p>* ด้านโครงสร้างพื้นฐาน</p>
+                                        <p>ได้แก่ ระบบไฟฟ้าและระบบอินเทอร์เน็ตจะต้องมีและเพียงพอต่อการเข้าใช้สื่อสังคม</p>
+                                        <p>* ด้านโปรแกรม</p>
+                                        <p>ต้องมีโปรแกรมหรือแอปพลิเคชันที่ติดตั้งในอุปกรณ์คอมพิวเตอร์</p>
+                                        <p>* ด้านนโยบายภาครัฐ</p>
+                                        <p>นโยบายภาครัฐจะต้องไม่ปิดกั้นสื่อสังคมออนไลน์ ในทางกลับกันหากรัฐเห็นว่าสื่อสังคม ออนไลน์นั้นกระทบกับความมั่นคง ความสงบเรียบร้อย หรือศีลธรรมอันดีของบว่าสือสัมแล้ว ก็อาจจะปิดกั้นการเข้าถึงสื่อสังคมออนไลน์หนึ่ง ๆ ได้</p>
+                                        <h4>3. สถานการณ์ของสังคมไทยและสังคมโลกยุคดิจิทัล</h4>
+                                        <p>ปัจจุบันโลกออนไลน์เข้ามาสู่ชีวิตประจำวันของคนเราจนกลายเป็นเรื่องธรรมดา ส่วนหนึ่ง ก็เพราะว่าสร้างความสะดวกสบาย และอาจช่วยลดภาระค่าใช้จ่ายด้านต่าง ๆ ได้ ซึ่งมีการใช้ประโยชน์ ในการสื่อสารยุคดิจิทัลดังต่อไปนี้</p>
+                                        <p>* ด้าานการติดต่อสื่อสาร</p>
+                                        <p>การติดต่อสื่อสารเป็นวัตถุประสงค์ประการแรกสุดในการจัดให้มีระบบอินเทอร์เน็ตและ การสร้างสังคมหรือโลกออนไลน์ขึ้นมา ในปัจจุบันมีการใช้ประโยชน์ในชีวิตประจำวัน ดังนี้</p>
+                                        <p>- จดหมายอิเล็กทรอนิกส์ (E-mail)</p>
+                                        <p>- แชด (Chat)</p>
+                                        <p>- การประชุมผ่านสื่ออิเล็กทรอนิกส์ (Video Conference) </p>
+                                        <p>- ประกาศข้อความหรือโพสต์ (Post)</p>
+                                        <p>- การอัปโหลด (Upload)</p>
+                                        <p>* ด้านการศึกษา</p>
+                                        <p>การสื่อสารในยุคดิจิทัลก่อให้เกิดประโยชน์ในด้านการศึกษาเป็นอย่างมาก ทั้งนี้เนื่องจาก ผู้ส่งสาร โดยเฉพาะอย่างยิ่งครูอาจารย์สามารถนำเทคโนโลยีทางคอมพิวเตอร์มาใช้สำหรับการจัด การเรียนการสอนได้ เช่น การจัดการเรียนการสอนออนไลน์ การให้นักเรียนไปศึกษาความรู้เพิ่มเติม จากข้อมูลในอินเทอร์เน็ต การใช้โปรแกรมสื่อสารสอนด้วยเทคนิคใหม่ ๆ การจัดทำห้องเรียนออนไลน์ สำหรับการใส่ใบความรู้ให้นักเรียนได้อ่าน การส่งการบ้านทางออนไลน์</p>
+                                        <p>* ด้านเศรษฐกิจ</p>
+                                        <p>มีการใช้การสื่อสารในยุคดิจิทัลมาใช้ประโยชน์ในด้านเศรษฐกิจหลายลักษณะ เช่น ด้านพาณิชยกรรม จากอดีตเป็นการซื้อขายของกันที่หน้าร้าน ปรับเปลี่ยนมาเป็นการสั่งสินค้า ผ่านระบบตลาดออนไลน์ (Online Market)</p>
+                                        <p>* ด้านการบริการ</p>
+                                        <p>มีแอปพลิเคชันช่วยเพิ่มประสิทธิภาพการให้บริการเพิ่มมากขึ้น เช่น การจอง โรงแรม การจองเที่ยวบิน ช่วยเพิ่มความสะดวกแก่ผู้ใช้บริการ</p>
+                                        <p>* ด้านการธนาคาร</p>
+                                        <p>ลูกค้าธนาคารไม่จำเป็นต้องไปติดต่อธนาคารเพื่อทำธุรกรรมทางการเงิน เช่น การฝากเงิน การโอนเงิน การชำระค่าบริการต่าง ๆ แต่สามารถปรับเปลี่ยนไปในรูปแบบของการ ทำธุรกรรมธนาคารบนอินเทอร์เน็ต (Internet Banking)</p>
+                                        <p>* การติดต่อภาครัฐ</p>
+                                        <p>นอกจากนี้ระบบการสื่อสารยุคดิจิทัลยังมีส่วนอำนวยความสะดวกในการติดต่อภาครัฐ ไม่จำเป็นต้องเดินทางไปยังหน่วยงานต่าง ๆ และภาครัฐสามารถใช้ช่องทางเหล่านั้นติดต่อกับประชาชน ได้เป็นวงกว้าง เช่น ด้านสาธารณสุข การยื่นภาษีออนไลน์ การจองคิวทำใบขับขี่กับกรมการขนส่งทางบก</p>
+                                        <h4>สรุป</h4>
+                                        <p>การสื่อสารคือปัจจัยพื้นฐานสำคัญอย่างหนึ่งที่ทำให้มนุษย์สามารถอยู่ร่วมกัน เป็นสังคมจนถึงทุกวันนี้ คนเราไม่ว่าจะมีอายุ เพศ หรือบทบาทใดในสังคมก็ตาม ล้วนต้องพึ่งพาการสื่อสารและการมีปฏิสัมพันธ์ระหว่างบุคคลอื่นอยู่เสมอ ไม่ว่าจะเป็น บุคคลในครอบครัว เพื่อน คนที่ทำงาน หรือผู้คนที่พบเจอในแต่ละวันเพื่อทำ กิจกรรมต่าง ๆ เช่น การซื้อของ การเดินทาง การเล่นกีฬา และเมื่อโลกาภิวัตน ทำให้สังคมเปลี่ยนแปลงมาอยู่ในรูปแบบของโลกไร้พรมแดน การสื่อสารจึงมีรูปแบบ ที่แตกต่างจากในอดีต หากมองไปรอบตัวจะพบว่าปัจจุบันการสื่อสารผ่านกระดาษ และน้าหมึก อาจไม่จำเป็นอีกต่อไป เมื่อมนุษย์ยุคดิจิทัลสามารถสื่อสารผ่านระบบ ไร้สายหรืออินเทอร์เน็ตที่สามารถเกิดขึ้นได้ทุกที่ ทุกเวลา และทุกสถานที่ ความสะดวก สบายของการสื่อสารรูปแบบนี้ จึงได้นำพาผู้คนทั้งที่รู้จักและไม่รู้จักกันจากทั่วทุกมุมโลก มาอยู่ร่วมกัน ซึ่งก่อให้เกิดเครือข่ายสังคมขนาดใหญ่ ดังนั้นเราทุกคนที่ใช้ชีวิตใน สังคมออนไลน์ จึงจำเป็นต้องเรียนรู้มารยาทในการสื่อสารยุคดิจิทัลเพื่อให้การมี ปฏิสัมพันธ์ผ่านหน้าจอเป็นไปด้วยความสงบเรียบร้อย เกิดความเข้าใจอันดีซึ่งกันและกัน บรรลุวัตถุประสงค์ของการสื่อสารและเกิดประโยชน์ต่อตนเองและผู้อื่น</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                                        
+
+                         </div><!-- tab content -->
+							</div>
+						</div><!-- end col -->
+					</div><!-- end row -->                
+                                        
+                                    
+                                    
+                  <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
+
+</body>
+</html>                   
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                   
+					
+                    
+
+            
+
+                    
+   
